@@ -1,0 +1,14 @@
+ LangChain es un framework para construir aplicaciones con modelos de lenguaje.
+Permite conectar modelos de IA con herramientas externas como bases de datos y APIs.
+
+RAG significa Retrieval Augmented Generation.
+Es una técnica que combina búsqueda de información con generación de texto.
+Primero busca los documentos relevantes y luego los usa como contexto para responder.
+
+Los embeddings son representaciones numéricas del texto.
+Textos con significado similar tienen embeddings similares.
+Esto permite buscar por significado y no solo por palabras exactas.
+
+ChromaDB es una base de datos vectorial.
+Guarda los embeddings y permite buscar los más similares a una consulta.
+Es perfecta para proyectos de RAG con LangChain.
