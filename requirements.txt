@@ -1,0 +1,25 @@
+# Dependencias del proyecto AI Engineer Roadmap
+# Instalar con: pip install -r requirements.txt
+
+# LangChain — framework principal
+langchain
+langchain-anthropic
+langchain-huggingface
+langchain-chroma
+langchain-community
+langchain-text-splitters
+
+# Base de datos vectorial local
+chromadb
+
+# Modelo de lenguaje local (alternativa gratuita a Claude)
+langchain-ollama
+
+# Leer PDFs
+pypdf
+
+# Variables de entorno desde .env
+python-dotenv
+
+# Embeddings locales gratuitos
+sentence-transformers
