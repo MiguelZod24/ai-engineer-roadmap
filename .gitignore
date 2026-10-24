@@ -1,3 +1,20 @@
-.env 
-# PDFs — archivos binarios que no van en git
+# Variables de entorno — NUNCA subir al repositorio
+.env
+
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# ChromaDB
+chroma_db/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# PDFs
 *.pdf
