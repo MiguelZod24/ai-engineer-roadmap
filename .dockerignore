@@ -1,0 +1,11 @@
+# Nunca copiar el entorno virtual al contenedor (Docker instala sus propias dependencias)
+venv/
+
+# Nunca copiar archivos .env — contienen secretos (API keys)
+.env
+**/.env
+
+# Carpetas de control de versiones y cache de Python
+.git/
+__pycache__/
+*.pyc

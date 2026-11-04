@@ -23,3 +23,9 @@ python-dotenv
 
 # Embeddings locales gratuitos
 sentence-transformers
+
+# Framework de la API REST
+fastapi
+
+# Servidor para correr FastAPI
+uvicorn
